@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - chatBot",
+            "request": "launch",
+            "mainClass": "chatBot"
+        }
+    ]
+}
