@@ -1,0 +1,5 @@
+cd E:
+javac -d class chatBot.java
+cd class
+clear
+java chatBot

@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Random;
 
 public class getAthleticInfo extends ioHandler {
@@ -31,10 +29,11 @@ public class getAthleticInfo extends ioHandler {
 
 	public getAthleticInfo() {
 
-		System.out.println("What do you want know about Cardozo SPORTS?");
+		System.out.println("Which sports do you you want to know more about at Cardozo?");
 
 		String response = scanner.nextLine();
-
+		
+                
 		//Soccer (1)
 
 		if (response.indexOf("soccer") >= 0) {
@@ -44,6 +43,7 @@ public class getAthleticInfo extends ioHandler {
 			System.out.println("So do you want to know more about our awesome Coaches? or hear about some team statistics?  \n Personally I think we have some great coaches"); //Ask what they want to know about
 
 			response = scanner.nextLine();
+			 
 
 			//Limited Answer Choices
 
@@ -55,10 +55,9 @@ public class getAthleticInfo extends ioHandler {
 
 			} else if (response.indexOf("Statistics") >= 0) {
 
-				response = scanner.nextLine();
+				//response = scanner.nextLine();
 
-				System.out.println(
-						"So far our Boys Soccer Team is 3 and 7, but our boys soccer team aren't done as they'll do even better in their next few games!! And for our Girls Soccer Team they're 4 and 6, but our girls soccer team are doing their best to make a comeback and they're going to have fun doing it!");
+				System.out.println("So far our Boys Soccer Team is 3 and 7, but our boys soccer team aren't done as they'll do even better in their next few games!! And for our Girls Soccer Team they're 4 and 6, but our girls soccer team are doing their best to make a comeback and they're going to have fun doing it!");
 
 				stopTalking();
 
@@ -73,6 +72,7 @@ public class getAthleticInfo extends ioHandler {
 						"Of Cardozo's Baseball team, would you rather hear more about our coaches or the stats of our team?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -98,6 +98,7 @@ public class getAthleticInfo extends ioHandler {
 						"Of Cardozo's basketball team, what do you want to hear more about? Its coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -125,6 +126,7 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println("What do you want to hear more about Cardozo's bowling, its coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -151,6 +153,7 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println("Would you care to hear more about its coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 				if (response.indexOf("coach") >= 0) {
@@ -178,6 +181,7 @@ public class getAthleticInfo extends ioHandler {
 						"Would you care to learn more about the coaches or the stats of our fencing team then?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -206,6 +210,7 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println("About Cardozo's football, what do you want to know more about?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -234,6 +239,7 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println("Of our golf team, do you want to know more about the coaches or the stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -259,6 +265,7 @@ public class getAthleticInfo extends ioHandler {
 						"About our gymnastics team, do you want to hear more more about the caoches or the stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -288,6 +295,7 @@ public class getAthleticInfo extends ioHandler {
 						"Of our handball team, what exactly do you want to hear more about? The coaches or the stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -317,6 +325,7 @@ public class getAthleticInfo extends ioHandler {
 						"Anyway of our track team, are intrested to hear more about the coaches or the stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -346,6 +355,7 @@ public class getAthleticInfo extends ioHandler {
 						"What makes you intrested to know more about the lacrosse team, would it be the coaches or the stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -371,9 +381,10 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println(
 						"Good Choice! Cardozo's " + response + " Team is a really intresting topic to talk about.");
 
-				System.out.println("Of softball, what would oyu want to know more about, the coaches or the stats?"); //Ask what they want to know about
+				System.out.println("Of softball, what would you like to know more about, the coaches or the stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -401,6 +412,7 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println("Do you want o hear more of Cardozo's Swimming Team Coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 				if (response.indexOf("coach") >= 0) {
@@ -429,6 +441,7 @@ public class getAthleticInfo extends ioHandler {
 				System.out.println("Of table tennis, do you want to know more about its coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -458,6 +471,7 @@ public class getAthleticInfo extends ioHandler {
 						"Now tell me, what do you want to hear more about Cardozo's Tennis Team, its caoches or tis stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -487,6 +501,7 @@ public class getAthleticInfo extends ioHandler {
 						"Now of this intresting topic, would you care to know more about its coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
@@ -516,6 +531,7 @@ public class getAthleticInfo extends ioHandler {
 						"Now that we're talking about Cardozo's wrestling team, about what would you want to know more about, its coaches or its stats?"); //Ask what they want to know about
 
 				response = scanner.nextLine();
+				 
 
 				//Limited Answer Choices
 
